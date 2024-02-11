@@ -1,0 +1,229 @@
+.age-form {
+    position: relative;
+    top: 10px;
+    left: 350px;
+    width: 650px;
+    padding: 50px 30px;
+
+}
+
+.age-data {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 15%;
+    gap: 20px;
+}
+
+.age-input {
+    >input {
+        width: 20vw;
+        padding: 10px;
+        font-size: 20px;
+        border-radius: 20px;
+        outline: none;
+    }
+}
+
+.age-btn {
+    >button {
+        width: 10vw;
+        padding: 10px;
+        border-radius: 10px;
+        cursor: pointer;
+        color: black;
+    }
+}
+
+@media (max-width:1100px) and (min-width:900px) {
+    .age-form {
+        position: relative;
+        top: 10px;
+        left: 250px;
+        width: 650px;
+        padding: 50px 30px;
+
+    }
+}
+
+@media (max-width:900px) and (min-width:700px) {
+    .age-form {
+        position: relative;
+        top: 10px;
+        left: 150px;
+        width: 550px;
+        padding: 50px 30px;
+
+    }
+
+    .age-input {
+        >input {
+            width: 25vw;
+            padding: 8px;
+            font-size: 18px;
+            border-radius: 20px;
+            outline: none;
+        }
+    }
+
+    .age-btn {
+        >button {
+            width: 15vw;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: black;
+        }
+    }
+}
+
+@media (max-width:700px) and (min-width:550px) {
+    .age-form {
+        position: relative;
+        top: 10px;
+        left: 100px;
+        width: 450px;
+        padding: 40px 20px;
+
+    }
+
+    .age-input {
+        position: relative;
+        right: 60px;
+
+        >input {
+            width: 35vw;
+            padding: 6px;
+            font-size: 16px;
+            border-radius: 10px;
+            outline: none;
+        }
+    }
+
+    .age-btn {
+        position: relative;
+        right: 50px;
+
+        >button {
+            width: 20vw;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: black;
+        }
+    }
+}
+
+@media (max-width:550px) and (min-width:420px) {
+    .age-form {
+        position: relative;
+        top: 10px;
+        left: 20px;
+        width: 400px;
+        padding: 40px 20px;
+
+    }
+
+    .age-input {
+        position: relative;
+        right: 60px;
+
+        >input {
+            width: 35vw;
+            padding: 6px;
+            font-size: 16px;
+            border-radius: 10px;
+            outline: none;
+        }
+    }
+
+    .age-btn {
+        position: relative;
+        right: 50px;
+
+        >button {
+            width: 20vw;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: black;
+        }
+    }
+}
+
+@media (max-width:420px) and (min-width:370px) {
+    .age-form {
+        position: relative;
+        top: 10px;
+        left: 10px;
+      
+        width: 350px;
+        padding: 40px 10px;
+
+    }
+
+    .age-input {
+        position: relative;
+        right: 40px;
+
+        >input {
+            width: 35vw;
+            padding: 3px;
+            font-size: 16px;
+            border-radius: 10px;
+            outline: none;
+        }
+    }
+
+    .age-btn {
+        position: relative;
+        right: 40px;
+
+        >button {
+            width: 30vw;
+            padding: 7px;
+            border-radius: 10px;
+            cursor: pointer;
+            color: black;
+        }
+    }
+}
+
+@media (max-width:370px) and (min-width:200px) {
+    .age-form {
+        position: relative;
+        top: 5px;
+        left: 10px;
+       border-radius: 20px;
+        width: 280px;
+        padding: 20px 10px;
+
+    }
+
+    .age-input {
+        position: relative;
+        right: 40px;
+
+        >input {
+            width: 40vw;
+            padding: 3px;
+            font-size: 12px;
+            border-radius: 10px;
+            outline: none;
+        }
+    }
+
+    .age-btn {
+        position: relative;
+        right: 40px;
+
+        >button {
+            width: 30vw;
+            padding: 3px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: black;
+            font-size: 10px;
+        }
+    }
+}

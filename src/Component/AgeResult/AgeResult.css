@@ -1,0 +1,26 @@
+.result{
+    text-align: center;
+    >h4{
+        background: linear-gradient(#ff1b6b,#45caff);
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}
+
+@media (max-width:420px) and (min-width:340px) {
+    .result{
+        text-align: center;
+        >h4{
+           font-size: 13px;
+        }
+    }
+}
+@media (max-width:340px) and (min-width:200px) {
+    .result{
+        text-align: center;
+        >h4{
+           font-size: 10px;
+        }
+    }
+}
